@@ -6,7 +6,8 @@
   "homepage": "https://bradtraversy.github.io/modern_portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "build": "npm run sass" 
   },
   "author": "Brad Traversy",
   "license": "MIT",
